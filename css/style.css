@@ -1,0 +1,237 @@
+.smooth-transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.home-body {
+  display:none;
+  color: 	rgb(192,192,192);
+  font-family: 'Arvo', serif;
+  /*background: url(../images/05.jpg) no-repeat center center fixed;*/
+  background: url(../build/05.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+.portfolio-image {
+  padding: 10px;
+}
+
+.portfolio-image img {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    display:inline-block;
+    float:left;
+}
+
+.portfolio-image .img-description {
+  width: 30%;
+  padding: 10px;
+  float:left;
+}
+
+
+.portfolio-image img:hover {
+  opacity: 0.8;
+}
+
+hr {
+  color: white;
+}
+
+.home-desc {
+  color: rgb(192,192,192);
+  width: 500px;
+  background: rgba(30, 31, 33,0.5);
+  margin: 180px auto 0px auto;
+  text-align: center;
+  /*font-family: 'Croissant One', cursive;*/
+}
+
+.home-desc p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.button {
+  padding: 10px 15px;
+  width: 200px;
+  font-size: 15px;
+  background: transparent;
+  color: rgb(192,192,192);
+  border-radius: 4px;
+  border: solid 1px rgb(192,192,192);
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.button:hover {
+    background: rgba(30, 31, 33,0.5);
+    border: solid 1px rgb(212,175,55);
+    color: rgb(212,175,55);
+    text-decoration: none;
+}
+
+.button a {
+  color: rgb(192,192,192);
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: rgb(212,175,55);
+  text-decoration: none;
+}
+
+.about-body {
+  color: 	rgb(192,192,192);
+  font-family: 'Arvo', serif;
+  background-color: black;
+}
+
+.about-main {
+  /*background: url(../images/me.jpg) no-repeat center center fixed;*/
+  background: url(../build/me.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
+
+.about-text p{
+  width: 500px;
+  color: rgb(192,192,192);
+  background: rgba(30, 31, 33,0.5);
+  margin: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  padding:20px 10px;
+  text-align: justify;
+  float: left;
+  display: block;
+}
+
+
+.about-footer {
+  margin-top: 40px;
+  padding: 10px;
+  bottom: 0;
+  float: right;
+}
+
+.altindex-main {
+  /*background: url(../images/05.jpg) no-repeat center center fixed;*/
+  background: url(../build/05.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+}
+
+.altindex-text p{
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.altindex-text {
+  width: 500px;
+  height: auto;
+  padding:20px 10px;
+  margin: auto;
+  color: rgb(192,192,192);
+  background: rgba(30, 31, 33,0.5);
+}
+
+.menu {
+  background-color: rgba(30, 31, 33,0.7);
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.menu h1 {
+  float: left;
+  display: block;
+  padding-left: 20px;
+  font-family: 'Croissant One', cursive;
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.sub-header {
+  font-family: 'Arvo', serif;
+  font-size: 0.4em;
+}
+.about-nav a {
+  padding: 10px 20px;
+}
+
+.about-nav p {
+  float: left;
+  display: block;
+  padding: 0px 20px;
+  font-family: 'Croissant One', cursive;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: 	rgb(192,192,192);
+  text-decoration: none;
+  display: block;
+  float: right;
+  padding: 40px 20px 0px 20px;
+  margin: 0 0 10px 0;
+}
+
+nav a:hover {
+  color: rgb(212,175,55);
+}
+
+.about-nav a {
+  border-radius: 3px;
+  border: dotted 1px #000;
+}
+
+.about-nav a:hover {
+  border-radius: 3px;
+  border: dotted 1px rgb(212,175,55);
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+main {
+  text-align: center;
+  height: 550px;
+  width: auto;
+}
+
+.portfolio-main {
+  text-align: left;
+  margin: 10px;
+}
+
+
+footer {
+  float: right;
+  font-size: 10px;
+  display: block;
+  padding: 0px 20px 10px 10px;
+}
