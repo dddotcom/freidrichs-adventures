@@ -49,7 +49,7 @@ hr {
   color: rgb(192,192,192);
   width: 500px;
   background: rgba(30, 31, 33,0.5);
-  margin: 180px auto 0px auto;
+  margin: 240px auto 0px auto;
   text-align: center;
   /*font-family: 'Croissant One', cursive;*/
 }
@@ -128,6 +128,46 @@ hr {
   float: right;
 }
 
+.contact-main {
+  height: 80vh;
+}
+
+.contact-form {
+  padding: 20px;
+  margin: auto;
+  color: rgb(192,192,192);
+  text-align: left;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.contact-form input{
+  padding: 5px 10px;
+  width: 200px;
+  background: transparent;
+  color: rgb(192,192,192);
+  border-radius: 4px;
+  border: solid 1px rgb(192,192,192);
+  margin: 15px 0px;
+  font-size: 15px;
+  outline: none;
+}
+
+.contact-form textarea {
+  padding: 10px 10px;
+  background: transparent;
+  color: rgb(192,192,192);
+  border-radius: 4px;
+  border: solid 1px rgb(192,192,192);
+  margin: 10px 0px;
+  font-size: 15px;
+  outline: none;
+}
+
+.error {
+  color: red;
+}
+
 .altindex-main {
   /*background: url(../images/05.jpg) no-repeat center center fixed;*/
   background: url(../build/05.jpg) no-repeat center center fixed;
@@ -156,7 +196,7 @@ hr {
 }
 
 .menu {
-  background-color: rgba(30, 31, 33,0.7);
+  /*background-color: rgba(30, 31, 33,0.7);*/
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -170,6 +210,7 @@ hr {
   font-size: 2em;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .sub-header {
@@ -189,12 +230,17 @@ hr {
   letter-spacing: 1px;
 }
 
+#home-link {
+  cursor: pointer;
+  /*font-size: 20px;*/
+}
+
 nav a {
   color: 	rgb(192,192,192);
   text-decoration: none;
   display: block;
   float: right;
-  padding: 40px 20px 0px 20px;
+  padding: 10px 20px 0px 20px;
   margin: 0 0 10px 0;
 }
 
@@ -237,6 +283,10 @@ footer {
   font-size: 10px;
   display: block;
   padding: 0px 20px 10px 10px;
+}
+
+.home-footer:hover{
+  background: rgba(30, 31, 33,0.5);
 }
 
 @media only screen
@@ -325,6 +375,10 @@ and (max-device-width : 768px) {
 
   .portfolio-image img {
     padding-right: 20px;
+  }
+
+  .home-desc {
+    margin-top: 300px;
   }
 }
 

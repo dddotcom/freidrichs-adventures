@@ -13,23 +13,36 @@
 
     <header>
       <nav class="about-nav clearfix">
-        <!-- <a class="smooth-transition" href="contact.html">Contact</a> -->
+        <p id="home-link">Denise Ortega<span class="sub-header">&emsp;PHOTOGRAPHY</span></p>
+        <a class="smooth-transition" href="#">Contact</a>
         <a class="smooth-transition" href="https://www.instagram.com/cheezymicron/" target="_blank">Instagram</a>
         <a class="smooth-transition" href="portfolio.html">Trips</a>
         <a class="smooth-transition" href="about.html">About</a>
       </nav>
     </header>
 
-    <main class="altindex-main">
-      <div class="altindex-text">
-        <p>
-          “Not just beautiful, though—the stars are like<br>
-          the trees in the forest, alive and breathing.<br>
-          And they’re watching me.”<br>
-          —Haruki Murakami, <i>Kafka on the Shore</i>
-        </p>
-        <button class="smooth-transition button" id="exit-button">exit</button>
-      </div>xsx
+    <main class="contact-main">
+      <div class="contact-form">
+        <p>Questions about gear, trips, or photos? Recommendations?<br>Leave me a message!</p>
+        <form>
+          <span class="form-span">Name *</span><br>
+          <span class="error"></span><br>
+          <input id="name-input" type="text" name="name"><br>
+
+          <span class="form-span">Email *</span><br>
+          <span class="error"></span><br>
+          <input id="email-input" type="text" name="email"><br>
+
+          <span class="form-span">Subject *</span><br>
+          <span class="error"></span><br>
+          <input id="subject-input" type="text" name="subject"><br>
+
+          <span class="form-span">Message *</span><br>
+          <span class="error"></span><br>
+          <textarea id="message-input" rows="5" cols="60" name="message"></textarea><br>
+          <button id="submit-contact" class="smooth-transition button" >Submit</button>
+        </form>
+      </div>
     </main>
 
     <footer class="about-footer">
