@@ -9,7 +9,6 @@
   display:none;
   color: 	rgb(192,192,192);
   font-family: 'Arvo', serif;
-  /*background: url(../images/05.jpg) no-repeat center center fixed;*/
   background: url(../build/05.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,7 +50,6 @@ hr {
   background: rgba(30, 31, 33,0.5);
   margin: 240px auto 0px auto;
   text-align: center;
-  /*font-family: 'Croissant One', cursive;*/
 }
 
 .home-desc p {
@@ -95,15 +93,13 @@ hr {
 }
 
 .about-main {
-  /*background: url(../images/me.jpg) no-repeat center center fixed;*/
   background: url(../build/me.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: black;
-  /*height: 550px;*/
-  height: 90vh;
+  height: 85vh;
 
 }
 
@@ -122,7 +118,7 @@ hr {
 
 
 .about-footer {
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 10px;
   bottom: 0;
   float: right;
@@ -169,7 +165,6 @@ hr {
 }
 
 .altindex-main {
-  /*background: url(../images/05.jpg) no-repeat center center fixed;*/
   background: url(../build/05.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -177,7 +172,7 @@ hr {
   background-size: cover;
   background-color: black;
   display: flex;
-  height: 550px;
+  height: 85vh;
 }
 
 .altindex-text p{
@@ -196,21 +191,9 @@ hr {
 }
 
 .menu {
-  /*background-color: rgba(30, 31, 33,0.7);*/
   bottom: 0;
-  position: absolute;
-  width: 100%;
-}
-
-.menu h1 {
-  float: left;
-  display: block;
-  padding-left: 20px;
-  font-family: 'Croissant One', cursive;
-  font-size: 2em;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 200px auto 0px auto;
+  text-align: center;
 }
 
 .sub-header {
@@ -232,7 +215,6 @@ hr {
 
 #home-link {
   cursor: pointer;
-  /*font-size: 20px;*/
 }
 
 nav a {
@@ -269,7 +251,6 @@ nav a:hover {
 
 main {
   text-align: center;
-  /*height: 550px;*/
   width: auto;
 }
 
@@ -281,7 +262,6 @@ main {
 footer {
   float: right;
   font-size: 10px;
-  display: block;
   padding: 0px 20px 10px 10px;
 }
 
@@ -291,6 +271,10 @@ footer {
 
 @media only screen
 and (max-device-width : 425px) {
+  .menu {
+    display: none;
+  }
+
   .about-text p {
     width: auto;
     font-size: 10.5px;
@@ -358,6 +342,14 @@ and (max-device-width : 425px) {
 @media only screen
 and (min-device-width : 426px)
 and (max-device-width : 768px) {
+  .menu {
+    margin: 222px auto 0px auto;
+  }
+
+  footer{
+    background: rgba(30, 31, 33,0.5);
+  }
+
   .about-text p{
     width: 350px;
     font-size: 14px;
