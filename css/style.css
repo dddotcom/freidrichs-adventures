@@ -283,29 +283,21 @@ and (max-device-width : 425px) {
 
   .altindex-main {
     height: 85vh;
+    text-align: center;
   }
 
   .altindex-text {
     width: 60vw;
-  }
-
-  .altindex-text p {
-    font-size: 35px;
+    margin: auto;
   }
 
   .home-desc {
     width: 80vw;
-    margin-top:400px;
+    margin-top:140px;
   }
 
   .home-desc p{
-    font-size: 35px;
     line-height: 1.5;
-  }
-
-  .button {
-    width: 300px;
-    font-size: 30px;
   }
 
   .portfolio-image img {
@@ -322,12 +314,19 @@ and (max-device-width : 425px) {
   }
 
   .about-nav a{
-    font-size: 20px;
-    padding-top: 20px;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+
+  #home-link {
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 
   .about-footer {
-    font-size: 20px;
+    font-size: 8px;
   }
 
   .about-nav p {
