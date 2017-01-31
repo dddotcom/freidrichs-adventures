@@ -327,6 +327,7 @@ and (max-device-width : 425px) {
     padding-top: 10px;
     padding-bottom: 0px;
     margin-bottom: 5px;
+    pointer-events: none;
   }
 
   #home-link {
