@@ -278,7 +278,10 @@ and (max-device-width : 425px) {
   .about-text p {
     width: auto;
     font-size: 10.5px;
-    line-height: normal;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    margin: 3px 10px;
+    padding: 5px;
   }
 
   .altindex-main {
@@ -287,8 +290,12 @@ and (max-device-width : 425px) {
   }
 
   .altindex-text {
-    width: 60vw;
-    margin: auto;
+    width: 75vw;
+    margin: auto auto auto 32px;
+  }
+
+  .home-body {
+    overflow: auto;
   }
 
   .home-desc {
@@ -297,7 +304,9 @@ and (max-device-width : 425px) {
   }
 
   .home-desc p{
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
   }
 
   .portfolio-image img {
@@ -350,9 +359,12 @@ and (max-device-width : 768px) {
   }
 
   .about-text p{
-    width: 350px;
+    width: 40vw;
     font-size: 14px;
-    margin-top: 90px;
+    padding: 10px;
+    margin: 5px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
   }
 
   .altindex-main {
@@ -380,6 +392,7 @@ and (max-device-width : 1024px) {
   .about-text p{
     width: 380px;
     font-size: 14px;
+    margin: 5px 25px;
   }
 
   .portfolio-image .img-description {
